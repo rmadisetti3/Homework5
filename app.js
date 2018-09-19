@@ -61,9 +61,9 @@ const $ = function(sel) {
   const print = function() {
     $("#content").empty();
     employeeList.forEach(function(e) {
-      render(e.name);
-      render(e.officeNum);
-      render(e.phoneNum);
+      render(`Name: ${e.name}`);
+      render(`Office Number: ${e.officeNum}`);
+      render(`Phone Number: ${e.phoneNum}`);
     })};
   
   const verify = function() {
@@ -91,9 +91,9 @@ const $ = function(sel) {
       render("Employee Not Found");
       break;
       default:
-      render(employeeList[index].name);
-      render(employeeList[index].officeNum);
-      render(employeeList[index].phoneNum);
+      render(`Name: ${employeeList[index].name}`);
+      render(`Office Number: ${employeeList[index].officeNum}`);
+      render(`Phone Number: ${employeeList[index].phoneNum}`);
       break; 
     }
   };
@@ -108,9 +108,9 @@ const $ = function(sel) {
     break;
     default:
     filterArr.forEach(function(e) {
-      render(e.name);
-      render(e.officeNum);
-      render(e.phoneNum);
+      render(`Name: ${e.name}`);
+      render(`Office Number: ${e.officeNum}`);
+      render(`Phone Number: ${e.phoneNum}`);
     });
     break;
   }
@@ -124,9 +124,9 @@ const $ = function(sel) {
     employeeList[index].name = inputName;
     employeeList[index].officeNum = inputOffice;
     employeeList[index].phoneNum = inputPhone;
-    render(employeeList[index].name);
-    render(employeeList[index].officeNum);
-    render(employeeList[index].phoneNum);
+    render(`Name: ${employeeList[index].name}`);
+    render(`Office Number: ${employeeList[index].officeNum}`);
+    render(`Phone Number: ${employeeList[index].phoneNum}`);
   };
   
   const addName = function() {
@@ -140,9 +140,9 @@ const $ = function(sel) {
     newObj.name = inputName;
     newObj.officeNum = inputOffice;
     newObj.phoneNum = inputPhone;
-    render(employeeList[leng].name);
-    render(employeeList[leng].officeNum);
-    render(employeeList[leng].phoneNum);
+    render(`Name: ${employeeList[leng].name}`);
+    render(`Office Number: ${employeeList[leng].officeNum}`);
+    render(`Phone Number: ${employeeList[leng].phoneNum}`);
   };
   
   const deleteName = function() {
@@ -154,9 +154,9 @@ const $ = function(sel) {
       render("Employee Not Found");
       break;
       default:
-      render(employeeList[i].name);
-      render(employeeList[i].officeNum);
-      render(employeeList[i].phoneNum);
+      render(`Name: ${employeeList[index].name}`);
+      render(`Office Number: ${employeeList[index].officeNum}`);
+      render(`Phone Number: ${employeeList[index].phoneNum}`);
       break;
     }
   };
@@ -178,31 +178,31 @@ const $ = function(sel) {
 
 //function to show each page specific to each command
 function showPrint() {
-  document.getElementsByClassName("h1").style.visibility = "hidden";
+  document.getElementById("title").style.visibility = "hidden";
 }
 function showVerify() {
   document.getElementById("ver").style.visibility = "visible";
-  document.getElementsByClassName("h1").style.visibility = "hidden";
+  document.getElementById("title").style.visibility = "hidden";
 }
 function showLookup() {
   document.getElementById("look").style.visibility = "visible";
-  document.getElementsByClassName("h1").style.visibility = "hidden";
+  document.getElementById("title").style.visibility = "hidden";
 }
 function showContains() {
   document.getElementById("cont").style.visibility = "visible";
-  document.getElementsByClassName("h1").style.visibility = "hidden";
+  document.getElementById("title").style.visibility = "hidden";
 }
 function showUpdate() {
   document.getElementById("up").style.visibility = "visible";
-  document.getElementsByClassName("h1").style.visibility = "hidden";
+  document.getElementById("title").style.visibility = "hidden";
 }
 function showAdd() {
   document.getElementById("ad").style.visibility = "visible";
-  document.getElementsByClassName("h1").style.visibility = "hidden";
+  document.getElementById("title").style.visibility = "hidden";
 }
 function showDelete() {
   document.getElementById("del").style.visibility = "visible";
-  document.getElementsByClassName("h1").style.visibility = "hidden";
+  document.getElementById("title").style.visibility = "hidden";
 }
 
 //call buttons to each function

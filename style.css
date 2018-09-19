@@ -35,9 +35,7 @@ button {
   color: lightgrey;
   border-color: black;
 }
-.gray {
-  color: lightgrey;
-}
+
 .command {
   padding: 5px;
   margin: 5px;
@@ -61,25 +59,28 @@ input {
 }
 #verButton {
   position: relative;
-  left: 350px;
-  color: blue;
+  left:360px;
+  top:10px;
+  color: white;
 }
 
 #lookButton {
   position: relative;
-  left: 350px;
-  color: blue;
+  left:360px;
+  top:10px;
+  color: white;
 }
 #contButton {
   position: relative;
-  left: 350px;
-  color: blue;
+  left:360px;
+  top:10px;
+  color: white;
 }
 
 #upButton {
   position: relative;
   left: 575px;
-  color: blue;
+  color: white;
 }
 #ad {
   position: relative;
@@ -95,8 +96,9 @@ input {
 }
 #delButton {
   position: relative;
-  left: 350px;
-  color: blue;
+  left:360px;
+  top:10px;
+  color: white;
 }
 form {
   position: relative;
