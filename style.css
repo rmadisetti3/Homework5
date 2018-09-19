@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44f4aebbd1e1371d5bf7dc22016c5d29&w=1000&q=80');
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+h1 {
+  font-size: 65px;
+  text-align: center;
+  color: white;
+  padding: 18px;
+  position: relative;
+  top: 280px;
+  left: 450px;
+  display: inline;
+  visibility: visible;
+}
+nav {
+  background-color: black;
+  height: 100%;
+  width: 65px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 240px;
+}
+button {
+  font-size: 15px;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: black;
+  color: lightgrey;
+  border-color: black;
+}
+.gray {
+  color: lightgrey;
+}
+.command {
+  padding: 5px;
+  margin: 5px;
+}
+#content {
+  position: relative;
+  left: 100px;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 0px;
+  line-height: 25px;
+}
+input {
+  position: relative;
+  left: 350px;
+  width: 500px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 100px;
+  border-color: black;
+}
+#verButton {
+  position: relative;
+  left: 350px;
+  color: blue;
+}
+
+#lookButton {
+  position: relative;
+  left: 350px;
+  color: blue;
+}
+#contButton {
+  position: relative;
+  left: 350px;
+  color: blue;
+}
+
+#upButton {
+  position: relative;
+  left: 575px;
+  color: blue;
+}
+#ad {
+  position: relative;
+  bottom: 300px;
+}
+#addButton {
+  position: relative;
+  left: 575px;
+}
+#del {
+  position: relative;
+  bottom: 400px;
+}
+#delButton {
+  position: relative;
+  left: 350px;
+  color: blue;
+}
+form {
+  position: relative;
+  left: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  visibility: hidden;
+}
